@@ -1,0 +1,239 @@
+
+
+body{
+    background: url(/_conception/media/background.jpg) top center no-repeat;
+    margin:0;
+    display: flex;
+    font-weight: bold;
+    z-index: 1;
+    justify-content: center;
+}
+
+ul{
+    margin: 0;
+}
+/*----- style nav css -----*/
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    background: #0056af;
+    text-decoration: none;
+    color: white; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.brands_list{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #111;
+}
+
+.brands_list:hover{
+    color: #111;
+}
+
+li{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    align-items: center;
+    border-right: dotted;
+    border-left: dotted;
+    height: 100%;
+    position: relative;
+    width: 50%;
+}
+
+.menu:hover a{
+    background-color: #b9d1f3;
+    color: #0056af;
+}
+
+.menu:hover>.sub_menu{
+    display: block;
+}
+
+.menu >a{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color:white;
+}
+.full_menu{
+    display: flex;
+    flex-flow: row;
+    width: 500px;
+    height: 50px;
+    padding: 0;
+    text-align: center;
+}
+.full_menu>li{
+    height: 50px;
+    width: 25%;
+}
+.sub_menu{
+    flex-flow: column;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 150px;
+    margin: 0;
+    background-color: #b9d1f3;
+    padding: 0;
+    text-decoration: none;
+    display: none;
+}
+
+.sub_menu a:hover{
+    color: #0056af;
+}
+
+
+
+.nav_link{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    width: 100%;
+}
+
+.nav_link:hover {
+    background-color: #b9d1f3;
+    color: #0056af;
+}
+
+.container{
+    width: 50%;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.logo img{
+    height: 60px;
+}
+
+/*----- style du main -----*/
+/*--- page top 3 ---*/
+/*--- page la liste ---*/
+
+h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    width: 16rem;
+    align-items: center;
+    margin: 2rem 0;
+
+}
+
+.cards_toys{
+    display: flex;
+    align-items: center;
+}
+
+.cards_list{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.cards_list li{
+    width:calc(100%/3);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width:200px;
+    order: -1;
+}
+
+.marvel_404{
+    width: 926px;
+}
+
+.cards-title{
+    padding-right: 80px;
+    color: #0056af;
+    text-decoration: none;
+} 
+
+.price{
+    font-weight: normal;
+    font-size: 2rem;
+    padding-right: 80px;
+    color: #111;
+}
+
+/*--- page description ---*/
+
+.toy_description{
+    display: flex;
+    width: 100%;
+}
+
+.form_description{
+    display: block;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.brands{
+    color: #0056af;
+    font-weight: bold;
+}
+
+.stock{
+    color: #0056af;
+    font-weight: bold;
+}
+
+.img_desc{
+    width: 280px;
+}
+
+p{
+    font-weight: normal;
+}
+
+.desc_right{
+    padding-left: 72px;
+}
+
+span{
+    color: #111;
+    font-size: 18px;
+}
